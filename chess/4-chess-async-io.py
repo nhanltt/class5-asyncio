@@ -1,15 +1,15 @@
 import asyncio
 import time
 
-# my_compute_time = 5
-# opponent_compute_time = 55
-# opponents = 24
-# move_pairs = 30
-
 my_compute_time = 5
 opponent_compute_time = 55
 opponents = 24
-move_pairs = 2
+move_pairs = 30
+
+# my_compute_time = 5
+# opponent_compute_time = 55
+# opponents = 24
+# move_pairs = 2
 
 # Solution and Explaination:
 # For each move pair with 1 opponent 
