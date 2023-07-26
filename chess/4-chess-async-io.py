@@ -1,11 +1,23 @@
 import asyncio
 import time
 
+# my_compute_time = 5
+# opponent_compute_time = 55
+# opponents = 24
+# move_pairs = 30
+
 my_compute_time = 5
 opponent_compute_time = 55
 opponents = 24
-move_pairs = 30
+move_pairs = 2
 
+# Solution and Explaination:
+# For each move pair with 1 opponent 
+# server go chess for 5s and don't wait for opponent,
+# server go chess with another opponent immediately
+# Then, for 24 opponents with the first move pairs, server use total 24*5 = 120 seconds
+# For 30 move pairs, server use total 120*30 = 3600 seconds
+# equal to 1 hour
 
 # Again notice that I declare the main() function as a async function
 async def main(x):

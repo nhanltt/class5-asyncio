@@ -5,6 +5,14 @@ opponent_compute_time = 55
 opponents = 24
 move_pairs = 30
 
+# Solution and Explaination:
+# For each move pair with 1 opponent 
+# server go chess for 5s and wait for opponent go for 55s
+# For 30 move pair with 1 opponent
+# server use total 30*(5+55) = 1800 seconds
+# For 30 move pair with 24 opponent
+# server use total 24*1800 = 43200 seconds 
+# equal to 12 hours
 
 def main(x):
     # Loops 30 times to simulate both players making a move
